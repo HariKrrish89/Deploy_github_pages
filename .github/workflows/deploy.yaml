@@ -1,16 +1,16 @@
-name: Deploy a static site
+name: Deploy to GitHub Pages
 
 on:
-  push: 
-    branch:
-      - main: #change this to your default brnach if it's not 'main'
+  push:
+    branches:
+      - main  # Change this to your default branch if it's not 'main'
 
-jobs: 
+jobs:
   build:
     runs-on: ubuntu-latest
 
-    steps: 
-    - name: Checkout Code
+    steps:
+    - name: Checkout code
       uses: actions/checkout@v2
 
     - name: Set up Node.js
