@@ -24,7 +24,7 @@ jobs:
 
     - name: Build the site
       run: npm run build
-      working-directory: ./  # Ensure this points to the correct directory
+      working-directory: public
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
