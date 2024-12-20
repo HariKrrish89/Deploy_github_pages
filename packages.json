@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "build": "echo 'Building the site...' && mkdir -p public && cp -r * public"
+  }
+}
