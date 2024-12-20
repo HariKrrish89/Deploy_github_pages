@@ -2,7 +2,7 @@
   "name": "deploy_github_pages",
   "version": "1.0.0",
   "description": "A simple static site for GitHub Pages deployment",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "build": "echo 'Building the site...' && mkdir -p public && cp -r * public"
   },
